@@ -1,0 +1,107 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.logo span {
+  color: #38bdf8;
+}
+
+nav a {
+  color: #e5e7eb;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+  padding: 100px 60px;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.hero h1 span {
+  color: #38bdf8;
+}
+
+.hero h3 {
+  margin-top: 10px;
+  font-weight: 400;
+  color: #94a3b8;
+}
+
+.hero p {
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+/* BUTTONS */
+.buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.primary {
+  background: #38bdf8;
+  color: #020617;
+}
+
+/* SECTIONS */
+section {
+  padding: 80px 60px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* PROJECTS */
+.card {
+  background: #020617;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+/* CONTACT */
+.contact p {
+  margin-top: 10px;
+}
