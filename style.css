@@ -113,3 +113,19 @@ h2 {
 .contact p {
   margin-top: 10px;
 }
+/* HERO LAYOUT */
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+/* PROFILE IMAGE */
+.hero-image img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #38bdf8;
+}
