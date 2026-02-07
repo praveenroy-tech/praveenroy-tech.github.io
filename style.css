@@ -12,6 +12,11 @@ body {
   color: #e5e7eb;
   line-height: 1.6;
 }
+/* LAYOUT CONTAINER  **** */
+section, header {
+  max-width:1100px;
+  margin: 0 auto;
+}
 
 /* NAVBAR */
 .navbar {
@@ -43,7 +48,10 @@ nav a:hover {
 
 /* HERO */
 .hero {
-  padding: 100px 60px;
+  min-height:90vh;
+  display:flex;
+  align-item:centre;
+  padding: 60px;
 }
 
 .hero h1 {
