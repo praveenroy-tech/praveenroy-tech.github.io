@@ -47,12 +47,7 @@ nav a:hover {
 }
 
 /* HERO */
-.hero {
-  min-height:90vh;
-  display:flex;
-  align-item:centre;
-  padding: 60px;
-}
+
 
 .hero h1 {
   font-size: 48px;
@@ -197,4 +192,10 @@ h2 {
   .hero-image {
     margin-top: 40px;
   }
+}
+/* Left text */
+.hero-content {
+  max-width: 55%;
+}
+
 }
